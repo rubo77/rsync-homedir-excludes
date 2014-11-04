@@ -1,27 +1,37 @@
 #These directories may be excluded:
 
-.gvfs                           # contains mounted file systems?
+# contains mounted file systems
+.gvfs
 .local/share/gvfs-metadata
-.Private                        # contains the actual encrypted home directory
-.dbus                           # session-specific
+# contains the actual encrypted home directory
+.Private
+# session-specific
+.dbus
 .cache
-.Trash                          # do I need to say more?
+.Trash
 .local/share/Trash
-.cddb                           # cached info about audio CDs
-.aptitude                       # cached packages lists
+# cached info about audio CDs
+.cddb
+# cached packages lists
+.aptitude
 
 #Flash-specific:
 
-.adobe                          # Cache for flash, maybe others?
-.macromedia   # except for Flash persistence, there is no reason to keep this
+# Cache for flash, maybe others?
+.adobe
+# except for Flash persistence, there is no reason to keep this
+.macromedia
 
 #Files:
 
-.xsession-errors            # contains errors from the current graphical session
-.recently-used              # recently used files
+# contains errors from the current graphical session
+.xsession-errors
+# recently used files
+.recently-used
 .recently-used.xbel
 .thumbnails
-.Xauthority                 # session-specific
+# session-specific
+.Xauthority
 .ICEauthority
 .gksu.lock
 .pulse  # directory
@@ -30,26 +40,37 @@
 
 #KDE specific:
 
-.kde/share/apps/RecentDocuments # Recent documents on KDE
-.kde/share/apps/klipper         # Contains a history of the Klipper clipboard (KDE)
-.kde/share/apps/okular/docdata  # you will loose saved scrolling positions of PDFs
+# Recent documents on KDE
+.kde/share/apps/RecentDocuments
+# Contains a history of the Klipper clipboard (KDE)
+.kde/share/apps/klipper
+# you will loose saved scrolling positions of PDFs
+.kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
-.kde/share/apps/kmess/displaypics  # cached other users' profile pics
-.kde/share/apps/kmess/customemoticons  # cached emoticons of others
+# cached other users' profile pics
+.kde/share/apps/kmess/displaypics
+# cached emoticons of others
+.kde/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
 
 .mozilla/firefox/*/Cache
-.mozilla/firefox/*/minidumps    # in case Fx crashes dumps will be stored in this
-.mozilla/firefox/*/.parentlock       # session-specific           
-.mozilla/firefox/*/urlclassifier3.sqlite  # phishing database, recreated
-.mozilla/firefox/*/blocklist.xml   # blacklisted extensions
-.mozilla/firefox/*/extensions.sqlite  # extension database, recreated on startup
+# in case Fx crashes dumps will be stored in this
+.mozilla/firefox/*/minidumps
+# session-specific 
+.mozilla/firefox/*/.parentlock
+# phishing database, recreated
+.mozilla/firefox/*/urlclassifier3.sqlite
+# blacklisted extensions
+.mozilla/firefox/*/blocklist.xml
+# extension database, recreated on startup
+.mozilla/firefox/*/extensions.sqlite
 .mozilla/firefox/*/extensions.sqlite-journal
 .mozilla/firefox/*/extensions.rdf
 .mozilla/firefox/*/extensions.ini
 .mozilla/firefox/*/extensions.cache
-.mozilla/firefox/*/XUL.mfasl     # cached UI data, recreated
+# cached UI data, recreated
+.mozilla/firefox/*/XUL.mfasl
 .mozilla/firefox/*/XPC.mfasl
 .mozilla/firefox/*/xpti.dat
 .mozilla/firefox/*/compreg.dat
@@ -110,8 +131,10 @@
 
 #Other apps:
 
-.pulse/icons                  # Pidgin
-.java/deployment/cache        # Cached applets
+# Pidgin
+.pulse/icons
+# Cached applets
+.java/deployment/cache
 .icedteaplugin
 .icedtea
 .gnome2/epiphany/favicon_cache
