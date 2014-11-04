@@ -1,0 +1,117 @@
+#These directories may be excluded:
+
+.gvfs                           # contains mounted file systems?
+.local/share/gvfs-metadata
+.Private                        # contains the actual encrypted home directory
+.dbus                           # session-specific
+.cache
+.Trash                          # do I need to say more?
+.local/share/Trash
+.cddb                           # cached info about audio CDs
+.aptitude                       # cached packages lists
+
+#Flash-specific:
+
+.adobe                          # Cache for flash, maybe others?
+.macromedia   # except for Flash persistence, there is no reason to keep this
+
+#Files:
+
+.xsession-errors            # contains errors from the current graphical session
+.recently-used              # recently used files
+.recently-used.xbel
+.thumbnails
+.Xauthority                 # session-specific
+.ICEauthority
+.gksu.lock
+.pulse  # directory
+.pulse-cookie
+.esd_auth
+
+#KDE specific:
+
+.kde/share/apps/RecentDocuments # Recent documents on KDE
+.kde/share/apps/klipper         # Contains a history of the Klipper clipboard (KDE)
+.kde/share/apps/okular/docdata  # you will loose saved scrolling positions of PDFs
+.kde/share/apps/gwenview/recentfolders
+.kde/share/apps/kmess/displaypics  # cached other users' profile pics
+.kde/share/apps/kmess/customemoticons  # cached emoticons of others
+
+#Firefox-specific (see also Profile folder):
+
+.mozilla/firefox/*/Cache
+.mozilla/firefox/*/minidumps    # in case Fx crashes dumps will be stored in this
+.mozilla/firefox/*/.parentlock       # session-specific           
+.mozilla/firefox/*/urlclassifier3.sqlite  # phishing database, recreated
+.mozilla/firefox/*/blocklist.xml   # blacklisted extensions
+.mozilla/firefox/*/extensions.sqlite  # extension database, recreated on startup
+.mozilla/firefox/*/extensions.sqlite-journal
+.mozilla/firefox/*/extensions.rdf
+.mozilla/firefox/*/extensions.ini
+.mozilla/firefox/*/extensions.cache
+.mozilla/firefox/*/XUL.mfasl     # cached UI data, recreated
+.mozilla/firefox/*/XPC.mfasl
+.mozilla/firefox/*/xpti.dat
+.mozilla/firefox/*/compreg.dat
+
+#Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
+
+.opera/temporary_downloads
+.opera/cache
+.opera/thumbnails
+.opera/opcache
+.opera/icons
+.opera/application_cache
+.opera/widgets/*/cache
+.opera/lock
+
+#Komodo Edit:
+
+.komodoedit/*/codeintel/db
+.komodoedit/*/host-*/*/codeintel
+.komodoedit/*/XRE/Cache
+.komodoedit/*/XRE/.activatestate/komodo edit/Crash Reports
+.komodoedit/*/XRE/.activatestate/komodo edit/*/Cache
+.komodoedit/*/XRE/.activatestate/komodo edit/*/minidump
+.komodoedit/*/XRE/.parentlock
+.komodoedit/*/XRE/extensions.rdf
+.komodoedit/*/XRE/extensions.ini
+.komodoedit/*/XRE/extensions.cache
+.komodoedit/*/XRE/XPC.mfasl
+.komodoedit/*/XRE/XUL.mfasl
+.komodoedit/*/XRE/xpti.dat
+.komodoedit/*/XRE/pluginreg.dat
+.komodoedit/*/XRE/compreg.dat
+.komodoedit/*/XRE/*.sqlite-journal
+.komodoedit/*/pystdout.log
+.komodoedit/*/pystderr.log
+.komodoedit/*/history.sqlite.bak
+.komodoedit/*/running.lock
+.komodoedit/*/mutex.lock
+.komodoedit/*/*.xmlc
+.komodoedit/*/startup-env.tmp
+.komoeoedit/*/commandments.fifo
+.komoeoedit/*/history.sqlite
+
+#GnuPG:
+
+.gnupg/rnd
+.gnupg/random_seed
+.gnupg/.#*
+.gnupg/*.lock
+.gnupg/gpg-agent-info-*
+
+#Google Chrome:
+
+.config/google-chrome/Default/Local Storage
+.config/google-chrome/Default/Session Storage
+.config/google-chrome/Default/Application Cache
+.config/google-chrome/Default/History Index *
+
+#Other apps:
+
+.pulse/icons                  # Pidgin
+.java/deployment/cache        # Cached applets
+.icedteaplugin
+.icedtea
+.gnome2/epiphany/favicon_cache
