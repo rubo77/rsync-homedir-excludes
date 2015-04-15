@@ -129,6 +129,10 @@
 .config/google-chrome/Default/Application Cache
 .config/google-chrome/Default/History Index *
 
+# Local repositories (added by errantlinguist on 2015-04-13):
+.gradle/caches
+.m2/repository
+
 #Other apps:
 
 # Pidgin
