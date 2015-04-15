@@ -146,6 +146,7 @@
 # Pidgin
 .pulse/icons
 # Cached applets
+.guayadeque/cache.db
 .java/deployment/cache
 .icedteaplugin
 .icedtea
