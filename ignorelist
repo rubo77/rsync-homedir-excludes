@@ -154,8 +154,12 @@ VirtualBox*
 .grails/
 .grails_history
 .m2/repository
-.local/share/zeitgeist
 .local/share/notbit/
+
+#indexer
+.local/share/baloo
+.local/share/zeitgeist
+.local/share/akonadi
 
 #Other apps:
 
