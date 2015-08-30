@@ -1,3 +1,11 @@
+# rsync-homedir-excludes
+#
+# A list of files to exclude when backing up *nix home directories using rsync.
+#
+# Author: Ruben Barkow <https://gist.github.com/rubo77> (original)
+# Version: 2015-04-15
+# Website: https://gist.github.com/rubo77/8ffaadbc58ab099d2bc3
+
 #These directories may be excluded:
 
 # contains mounted file systems
@@ -129,11 +137,16 @@
 .config/google-chrome/Default/Application Cache
 .config/google-chrome/Default/History Index *
 
+# Local repositories (added by errantlinguist on 2015-04-13):
+.gradle/caches
+.m2/repository
+
 #Other apps:
 
 # Pidgin
 .pulse/icons
 # Cached applets
+.guayadeque/cache.db
 .java/deployment/cache
 .icedteaplugin
 .icedtea
