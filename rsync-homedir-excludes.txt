@@ -5,18 +5,28 @@
 # Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
 # Version: 2015-08-30
 
-#These directories may be excluded:
 
-# local temporary working directories
-VirtualBox*
-.vagrant
-.android
-.AndroidStudioBeta
-
+# directories, probably not worth a backup:
+#Downloads
 #games
-.minecraft
-.PlayOnLinux
-.local/share/Steam/
+#VirtualBox*
+#.vagrant
+#.vagrant.d
+#.android
+#.AndroidStudioBeta
+#.gradle
+#.gvm
+#.grails/
+#.grails_history
+#.local/share/notbit/
+#.wine
+
+# games
+#.minecraft
+#.PlayOnLinux
+#.local/share/Steam/
+
+#These directories may be excluded:
 
 # contains mounted file systems
 .gvfs
@@ -147,13 +157,16 @@ VirtualBox*
 .config/google-chrome/Default/Application Cache
 .config/google-chrome/Default/History Index *
 
+#Chromium:
+
+.config/chromium/Default/Local Storage
+.config/chromium/Default/Session Storage
+.config/chromium/Default/Application Cache
+.config/chromium/Default/History Index *
+
 # Local repositories (added by errantlinguist on 2015-04-13):
-.gradle
-.gvm
-.grails/
-.grails_history
+.gradle/caches
 .m2/repository
-.local/share/notbit/
 
 #indexer
 .local/share/baloo
