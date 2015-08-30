@@ -2,9 +2,8 @@
 #
 # A list of files to exclude when backing up *nix home directories using rsync.
 #
-# Author: Ruben Barkow <https://gist.github.com/rubo77> (original)
-# Version: 2015-04-15
-# Website: https://gist.github.com/rubo77/8ffaadbc58ab099d2bc3
+# Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
+# Version: 2015-08-30
 
 #These directories may be excluded:
 
