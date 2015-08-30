@@ -8,6 +8,17 @@
 
 #These directories may be excluded:
 
+# local temporary working directories
+VirtualBox*
+.vagrant
+.android
+.AndroidStudioBeta
+
+#games
+.minecraft
+.PlayOnLinux
+.local/share/Steam/
+
 # contains mounted file systems
 .gvfs
 .local/share/gvfs-metadata
@@ -138,8 +149,13 @@
 .config/google-chrome/Default/History Index *
 
 # Local repositories (added by errantlinguist on 2015-04-13):
-.gradle/caches
+.gradle
+.gvm
+.grails/
+.grails_history
 .m2/repository
+.local/share/zeitgeist
+.local/share/notbit/
 
 #Other apps:
 
