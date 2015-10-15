@@ -4,43 +4,64 @@
 #
 # Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
 # Version: 2015-08-30
+#
+# #Usage:
+#    USER=<homedir username here>
+#    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
 
-# directories, probably not worth a backup:
-#Downloads
-#games
-#VirtualBox*
-#.vagrant
-#.vagrant.d
+###############################################
+# directories, probably not worth a backup    #
+# (uncomment the files you don't need)        #
+###############################################
+
 #.android
 #.AndroidStudioBeta
 #.gradle
 #.gvm
 #.grails/
 #.grails_history
-#.local/share/notbit/
+#.kde/share/apps/nepomuk
+#.local/share/notbit
+#.vagrant
+#.vagrant.d
 #.wine
-
-# games
+#.twister
+#twister
+#Applications/eclipse*
+#Downloads
+#games
+#*Popcorntime*
+#Scribus
+#VirtualBox*
+#
+## Add Game Folders here:
+#
+#.local/share/Steam
 #.minecraft
 #.PlayOnLinux
-#.local/share/Steam/
 
-#These directories may be excluded:
+################################################
+# These directories may definitely be excluded #
+################################################
 
-# contains mounted file systems
+# Contains mounted file systems:
+
 .gvfs
 .local/share/gvfs-metadata
 # contains the actual encrypted home directory
 .Private
-# session-specific
+
+# Session-specific:
 .dbus
 .cache
 .Trash
 .local/share/Trash
-# cached info about audio CDs
+
+# Cached info about audio CDs:
 .cddb
-# cached packages lists
+
+# Cached packages lists:
 .aptitude
 
 #Flash-specific:
@@ -52,13 +73,16 @@
 
 #Files:
 
-# contains errors from the current graphical session
+# Contains errors from the current graphical session
 .xsession-errors
-# recently used files
+
+# Recently used files
 .recently-used
 .recently-used.xbel
 .thumbnails
-# session-specific
+.thumb
+
+# Session-specific
 .Xauthority
 .ICEauthority
 .gksu.lock
@@ -72,12 +96,12 @@
 .kde/share/apps/RecentDocuments
 # Contains a history of the Klipper clipboard (KDE)
 .kde/share/apps/klipper
-# you will loose saved scrolling positions of PDFs
+# You will loose saved scrolling positions of PDFs
 .kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
-# cached other users' profile pics
+# Cached other users' profile pics
 .kde/share/apps/kmess/displaypics
-# cached emoticons of others
+# Cached emoticons of others
 .kde/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
@@ -164,7 +188,7 @@
 .config/chromium/Default/Application Cache
 .config/chromium/Default/History Index *
 
-# Local repositories (added by errantlinguist on 2015-04-13):
+#Local repositories (added by errantlinguist on 2015-04-13):
 .gradle/caches
 .m2/repository
 
