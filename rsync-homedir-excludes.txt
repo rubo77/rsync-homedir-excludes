@@ -15,31 +15,31 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudioBeta
-#.gradle
-#.gvm
-#.grails/
-#.grails_history
-#.kde/share/apps/nepomuk
-#.local/share/notbit
-#.vagrant
-#.vagrant.d
-#.wine
-#.twister
-#twister
-#Applications/eclipse*
-#Downloads
-#games
-#*Popcorntime*
-#Scribus
-#VirtualBox*
+#/.android
+#/.AndroidStudioBeta
+#/.gradle
+#/.gvm
+#/.grails/
+#/.grails_history
+#/.kde/share/apps/nepomuk
+#/.local/share/notbit
+#/.vagrant
+#/.vagrant.d
+#/.wine
+#/.twister
+#/twister
+#/Applications/eclipse*
+#/Downloads
+#/games
+#/*Popcorntime*
+#/Scribus
+#/VirtualBox*
 #
 ## Add Game Folders here:
 #
-#.local/share/Steam
-#.minecraft
-#.PlayOnLinux
+#/.local/share/Steam
+#/.minecraft
+#/.PlayOnLinux
 
 ################################################
 # These directories may definitely be excluded #
@@ -47,163 +47,163 @@
 
 # Contains mounted file systems:
 
-.gvfs
-.local/share/gvfs-metadata
+/.gvfs
+/.local/share/gvfs-metadata
 # contains the actual encrypted home directory
-.Private
+/.Private
 
 # Session-specific:
-.dbus
-.cache
-.Trash
-.local/share/Trash
+/.dbus
+/.cache
+/.Trash
+/.local/share/Trash
 
 # Cached info about audio CDs:
-.cddb
+/.cddb
 
 # Cached packages lists:
-.aptitude
+/.aptitude
 
 #Flash-specific:
 
 # Cache for flash, maybe others?
-.adobe
+/.adobe
 # except for Flash persistence, there is no reason to keep this
-.macromedia
+/.macromedia
 
 #Files:
 
 # Contains errors from the current graphical session
-.xsession-errors
+/.xsession-errors
 
 # Recently used files
-.recently-used
-.recently-used.xbel
-.thumbnails
-.thumb
+/.recently-used
+/.recently-used.xbel
+/.thumbnails
+/.thumb
 
 # Session-specific
-.Xauthority
-.ICEauthority
-.gksu.lock
-.pulse  # directory
-.pulse-cookie
-.esd_auth
+/.Xauthority
+/.ICEauthority
+/.gksu.lock
+/.pulse  # directory
+/.pulse-cookie
+/.esd_auth
 
 #KDE specific:
 
 # Recent documents on KDE
-.kde/share/apps/RecentDocuments
+/.kde/share/apps/RecentDocuments
 # Contains a history of the Klipper clipboard (KDE)
-.kde/share/apps/klipper
+/.kde/share/apps/klipper
 # You will loose saved scrolling positions of PDFs
-.kde/share/apps/okular/docdata
-.kde/share/apps/gwenview/recentfolders
+/.kde/share/apps/okular/docdata
+/.kde/share/apps/gwenview/recentfolders
 # Cached other users' profile pics
-.kde/share/apps/kmess/displaypics
+/.kde/share/apps/kmess/displaypics
 # Cached emoticons of others
-.kde/share/apps/kmess/customemoticons
+/.kde/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
 
-.mozilla/firefox/*/Cache
+/.mozilla/firefox/*/Cache
 # in case Fx crashes dumps will be stored in this
-.mozilla/firefox/*/minidumps
+/.mozilla/firefox/*/minidumps
 # session-specific 
-.mozilla/firefox/*/.parentlock
+/.mozilla/firefox/*/.parentlock
 # phishing database, recreated
-.mozilla/firefox/*/urlclassifier3.sqlite
+/.mozilla/firefox/*/urlclassifier3.sqlite
 # blacklisted extensions
-.mozilla/firefox/*/blocklist.xml
+/.mozilla/firefox/*/blocklist.xml
 # extension database, recreated on startup
-.mozilla/firefox/*/extensions.sqlite
-.mozilla/firefox/*/extensions.sqlite-journal
-.mozilla/firefox/*/extensions.rdf
-.mozilla/firefox/*/extensions.ini
-.mozilla/firefox/*/extensions.cache
+/.mozilla/firefox/*/extensions.sqlite
+/.mozilla/firefox/*/extensions.sqlite-journal
+/.mozilla/firefox/*/extensions.rdf
+/.mozilla/firefox/*/extensions.ini
+/.mozilla/firefox/*/extensions.cache
 # cached UI data, recreated
-.mozilla/firefox/*/XUL.mfasl
-.mozilla/firefox/*/XPC.mfasl
-.mozilla/firefox/*/xpti.dat
-.mozilla/firefox/*/compreg.dat
+/.mozilla/firefox/*/XUL.mfasl
+/.mozilla/firefox/*/XPC.mfasl
+/.mozilla/firefox/*/xpti.dat
+/.mozilla/firefox/*/compreg.dat
 
 #Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
 
-.opera/temporary_downloads
-.opera/cache
-.opera/thumbnails
-.opera/opcache
-.opera/icons
-.opera/application_cache
-.opera/widgets/*/cache
-.opera/lock
+/.opera/temporary_downloads
+/.opera/cache
+/.opera/thumbnails
+/.opera/opcache
+/.opera/icons
+/.opera/application_cache
+/.opera/widgets/*/cache
+/.opera/lock
 
 #Komodo Edit:
 
-.komodoedit/*/codeintel/db
-.komodoedit/*/host-*/*/codeintel
-.komodoedit/*/XRE/Cache
-.komodoedit/*/XRE/.activatestate/komodo edit/Crash Reports
-.komodoedit/*/XRE/.activatestate/komodo edit/*/Cache
-.komodoedit/*/XRE/.activatestate/komodo edit/*/minidump
-.komodoedit/*/XRE/.parentlock
-.komodoedit/*/XRE/extensions.rdf
-.komodoedit/*/XRE/extensions.ini
-.komodoedit/*/XRE/extensions.cache
-.komodoedit/*/XRE/XPC.mfasl
-.komodoedit/*/XRE/XUL.mfasl
-.komodoedit/*/XRE/xpti.dat
-.komodoedit/*/XRE/pluginreg.dat
-.komodoedit/*/XRE/compreg.dat
-.komodoedit/*/XRE/*.sqlite-journal
-.komodoedit/*/pystdout.log
-.komodoedit/*/pystderr.log
-.komodoedit/*/history.sqlite.bak
-.komodoedit/*/running.lock
-.komodoedit/*/mutex.lock
-.komodoedit/*/*.xmlc
-.komodoedit/*/startup-env.tmp
-.komoeoedit/*/commandments.fifo
-.komoeoedit/*/history.sqlite
+/.komodoedit/*/codeintel/db
+/.komodoedit/*/host-*/*/codeintel
+/.komodoedit/*/XRE/Cache
+/.komodoedit/*/XRE/.activatestate/komodo edit/Crash Reports
+/.komodoedit/*/XRE/.activatestate/komodo edit/*/Cache
+/.komodoedit/*/XRE/.activatestate/komodo edit/*/minidump
+/.komodoedit/*/XRE/.parentlock
+/.komodoedit/*/XRE/extensions.rdf
+/.komodoedit/*/XRE/extensions.ini
+/.komodoedit/*/XRE/extensions.cache
+/.komodoedit/*/XRE/XPC.mfasl
+/.komodoedit/*/XRE/XUL.mfasl
+/.komodoedit/*/XRE/xpti.dat
+/.komodoedit/*/XRE/pluginreg.dat
+/.komodoedit/*/XRE/compreg.dat
+/.komodoedit/*/XRE/*.sqlite-journal
+/.komodoedit/*/pystdout.log
+/.komodoedit/*/pystderr.log
+/.komodoedit/*/history.sqlite.bak
+/.komodoedit/*/running.lock
+/.komodoedit/*/mutex.lock
+/.komodoedit/*/*.xmlc
+/.komodoedit/*/startup-env.tmp
+/.komoeoedit/*/commandments.fifo
+/.komoeoedit/*/history.sqlite
 
 #GnuPG:
 
-.gnupg/rnd
-.gnupg/random_seed
-.gnupg/.#*
-.gnupg/*.lock
-.gnupg/gpg-agent-info-*
+/.gnupg/rnd
+/.gnupg/random_seed
+/.gnupg/.#*
+/.gnupg/*.lock
+/.gnupg/gpg-agent-info-*
 
 #Google Chrome:
 
-.config/google-chrome/Default/Local Storage
-.config/google-chrome/Default/Session Storage
-.config/google-chrome/Default/Application Cache
-.config/google-chrome/Default/History Index *
+/.config/google-chrome/Default/Local Storage
+/.config/google-chrome/Default/Session Storage
+/.config/google-chrome/Default/Application Cache
+/.config/google-chrome/Default/History Index *
 
 #Chromium:
 
-.config/chromium/Default/Local Storage
-.config/chromium/Default/Session Storage
-.config/chromium/Default/Application Cache
-.config/chromium/Default/History Index *
+/.config/chromium/Default/Local Storage
+/.config/chromium/Default/Session Storage
+/.config/chromium/Default/Application Cache
+/.config/chromium/Default/History Index *
 
 #Local repositories (added by errantlinguist on 2015-04-13):
-.gradle/caches
-.m2/repository
+/.gradle/caches
+/.m2/repository
 
 #indexer
-.local/share/baloo
-.local/share/zeitgeist
-.local/share/akonadi
+/.local/share/baloo
+/.local/share/zeitgeist
+/.local/share/akonadi
 
 #Other apps:
 
 # Pidgin
-.pulse/icons
+/.pulse/icons
 # Cached applets
-.guayadeque/cache.db
-.java/deployment/cache
-.icedteaplugin
-.icedtea
-.gnome2/epiphany/favicon_cache
+/.guayadeque/cache.db
+/.java/deployment/cache
+/.icedteaplugin
+/.icedtea
+/.gnome2/epiphany/favicon_cache
