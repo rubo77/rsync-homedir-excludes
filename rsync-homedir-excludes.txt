@@ -128,6 +128,8 @@
 .mozilla/firefox/*/XPC.mfasl
 .mozilla/firefox/*/xpti.dat
 .mozilla/firefox/*/compreg.dat
+# cached plugin data, recreated
+.mozilla/firefox/*/pluginreg.dat
 
 #Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
 
