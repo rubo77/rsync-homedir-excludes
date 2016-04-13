@@ -23,6 +23,7 @@
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+#.local/libvirt
 #.vagrant
 #.vagrant.d
 #.wine
