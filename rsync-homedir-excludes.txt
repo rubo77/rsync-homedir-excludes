@@ -76,6 +76,7 @@
 
 # Contains errors from the current graphical session
 .xsession-errors
+.wayland-errors
 
 # Recently used files
 .local/share/RecentDocuments
