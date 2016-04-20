@@ -23,6 +23,7 @@
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+#.local/libvirt
 #.vagrant
 #.vagrant.d
 #.wine
@@ -75,8 +76,10 @@
 
 # Contains errors from the current graphical session
 .xsession-errors
+.wayland-errors
 
 # Recently used files
+.local/share/RecentDocuments
 .recently-used
 .recently-used.xbel
 .thumbnails
@@ -126,6 +129,8 @@
 .mozilla/firefox/*/XPC.mfasl
 .mozilla/firefox/*/xpti.dat
 .mozilla/firefox/*/compreg.dat
+# cached plugin data, recreated
+.mozilla/firefox/*/pluginreg.dat
 
 #Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
 
