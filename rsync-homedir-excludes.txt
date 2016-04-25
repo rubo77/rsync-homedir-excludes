@@ -15,34 +15,55 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudioBeta
-#.gradle
-#.gvm
-#.grails/
-#.grails_history
-#.kde/share/apps/nepomuk
-#.local/share/notbit
-#.local/libvirt
-#node_modules/
-#bower_components/
-#.vagrant
-#.vagrant.d
-#.wine
-#.twister
-#twister
-#Applications/eclipse*
-#Downloads
-#games
-#*Popcorntime*
-#Scribus
-#VirtualBox*
+floobits
+.electron
+.ganttproject*
+.gimp*
+.heroku
+.IntelliJ*
+.java
+.node-gyp
+.npm
+.gem
+.Skype
+vendor/
+.WebIde*
+.WebStorm*
+.adobe
+.android
+android/sdk/
+.AndroidStudio*
+.CLion*
+.PyCharm*
+.PhpStorm*
+.composer
+.gradle
+.gvm
+.grails/
+.grails_history
+.kde/share/apps/nepomuk
+.local/share/notbit
+.local/libvirt
+target/classes/
+node_modules/
+bower_components/
+.vagrant
+.vagrant.d
+.wine
+.twister
+twister
+Applications/eclipse*
+Downloads
+games
+*Popcorntime*
+Scribus
+VirtualBox*
 #
 ## Add Game Folders here:
 #
-#.local/share/Steam
-#.minecraft
-#.PlayOnLinux
+.local/share/Steam
+.minecraft
+.PlayOnLinux
 
 ################################################
 # These directories may definitely be excluded #
@@ -110,7 +131,7 @@
 .kde/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
-
+.mozilla
 .mozilla/firefox/*/Cache
 # in case Fx crashes dumps will be stored in this
 .mozilla/firefox/*/minidumps
