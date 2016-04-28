@@ -89,6 +89,8 @@
 .recently-used.xbel
 .thumbnails
 .thumb
+Thumbs.db
+.DS_Store
 
 # Session-specific
 .Xauthority
@@ -248,3 +250,6 @@
 .icedteaplugin
 .icedtea
 .gnome2/epiphany/favicon_cache
+
+# other temporary files 
+nohup.out
