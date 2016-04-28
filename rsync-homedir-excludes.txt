@@ -29,16 +29,16 @@
 #.vagrant.d
 #.wine
 #.twister
-#twister
+#/twister
 #Applications/eclipse*
-#Downloads
-#games
+#/Downloads
 #*Popcorntime*
-#Scribus
-#VirtualBox*
+#/Scribus
+#/VirtualBox*
 #
 ## Add Game Folders here:
 #
+#/games
 #.local/share/Steam
 #.minecraft
 #.PlayOnLinux
@@ -52,12 +52,12 @@
 .gvfs
 .local/share/gvfs-metadata
 # contains the actual encrypted home directory
-.Private
+/.Private
 
 # Session-specific:
-.dbus
-.cache
-.Trash
+/.dbus
+/.cache
+/.Trash
 .local/share/Trash
 
 # Cached info about audio CDs:
@@ -93,7 +93,7 @@
 .Xauthority
 .ICEauthority
 .gksu.lock
-.pulse  # directory
+.pulse
 .pulse-cookie
 .esd_auth
 
@@ -202,7 +202,7 @@
 
 #Local repositories (added by errantlinguist on 2015-04-13):
 .gradle/caches
-.m2/repository
+/.m2/repository
 
 #indexer
 .local/share/baloo
