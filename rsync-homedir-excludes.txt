@@ -16,7 +16,8 @@
 ###############################################
 
 #.android
-#.AndroidStudioBeta
+#.AndroidStudio*/
+#Android/Sdk
 #.gradle
 #.gvm
 #.grails/
@@ -64,6 +65,9 @@
 
 # Cached packages lists:
 .aptitude
+
+# Node Package Manager cache
+.npm
 
 #Flash-specific:
 
@@ -131,6 +135,9 @@
 .mozilla/firefox/*/compreg.dat
 # cached plugin data, recreated
 .mozilla/firefox/*/pluginreg.dat
+
+# Thunderbird Cache in your profile folder
+.thunderbird/*/Cache
 
 #Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
 
