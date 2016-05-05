@@ -139,7 +139,7 @@
 .opera/lock
 
 # Keychain dir (manage SSH and GPG keys, front-end to ssh-agent and ssh-add)
-.keychain
+/.keychain
 
 #Komodo Edit:
 
