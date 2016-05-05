@@ -150,6 +150,9 @@
 .opera/widgets/*/cache
 .opera/lock
 
+# Keychain dir (manage SSH and GPG keys, front-end to ssh-agent and ssh-add)
+/.keychain
+
 #Komodo Edit:
 
 .komodoedit/*/codeintel/db
