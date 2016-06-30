@@ -101,15 +101,21 @@
 
 # Recent documents on KDE
 .kde/share/apps/RecentDocuments
+.kde4/share/apps/RecentDocuments
 # Contains a history of the Klipper clipboard (KDE)
 .kde/share/apps/klipper
-# You will loose saved scrolling positions of PDFs
+.kde4/share/apps/klipper
+# You will lose saved scrolling positions of PDFs
 .kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
+.kde4/share/apps/okular/docdata
+.kde4/share/apps/gwenview/recentfolders
 # Cached other users' profile pics
 .kde/share/apps/kmess/displaypics
+.kde4/share/apps/kmess/displaypics
 # Cached emoticons of others
 .kde/share/apps/kmess/customemoticons
+.kde4/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
 
