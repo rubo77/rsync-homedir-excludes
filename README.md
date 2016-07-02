@@ -23,4 +23,10 @@
 		# if it is all fine, start your backup with
     rsync -aP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR
 
-At the start, there is a section with directories, probably not worth a backup. Uncomment those lines to exclude them as well.
+You can edit the ignorelist file before execution as it serves you well:
+
+- At the start, there is a section with directories, probably not worth a backup. Uncomment those lines to exclude them as well.
+
+- All lines starting with a `#` are being ignored.
+
+- The syntax doesn't support comments at the end of a line jet.
