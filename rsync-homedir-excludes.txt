@@ -101,15 +101,21 @@
 
 # Recent documents on KDE
 .kde/share/apps/RecentDocuments
+.kde4/share/apps/RecentDocuments
 # Contains a history of the Klipper clipboard (KDE)
 .kde/share/apps/klipper
-# You will loose saved scrolling positions of PDFs
+.kde4/share/apps/klipper
+# You will lose saved scrolling positions of PDFs
 .kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
+.kde4/share/apps/okular/docdata
+.kde4/share/apps/gwenview/recentfolders
 # Cached other users' profile pics
 .kde/share/apps/kmess/displaypics
+.kde4/share/apps/kmess/displaypics
 # Cached emoticons of others
 .kde/share/apps/kmess/customemoticons
+.kde4/share/apps/kmess/customemoticons
 
 #Firefox-specific (see also Profile folder):
 
@@ -135,6 +141,25 @@
 .mozilla/firefox/*/compreg.dat
 # cached plugin data, recreated
 .mozilla/firefox/*/pluginreg.dat
+
+#SeaMonkey-specific (see also Profile folder):
+
+.mozilla/seamonkey/*/Cache
+# in case Fx crashes dumps will be stored in this
+.mozilla/seamonkey/*/minidumps
+# session-specific 
+.mozilla/seamonkey/*/.parentlock
+# blacklisted extensions
+.mozilla/seamonkey/*/blocklist.xml
+# extension database, recreated on startup
+.mozilla/seamonkey/*/extensions.sqlite
+.mozilla/seamonkey/*/extensions.rdf
+.mozilla/seamonkey/*/extensions.ini
+# cached UI data, recreated
+.mozilla/seamonkey/*/xpti.dat
+.mozilla/seamonkey/*/compreg.dat
+# cached plugin data, recreated
+.mozilla/seamonkey/*/pluginreg.dat
 
 # Thunderbird Cache in your profile folder
 .thunderbird/*/Cache
