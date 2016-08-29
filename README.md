@@ -29,4 +29,4 @@ You can edit the ignorelist file before execution as it serves you well:
 
 - All lines starting with a `#` are being ignored.
 
-- The syntax doesn't support comments at the end of a line jet.
+- The syntax doesn't support comments at the end of a line yet.
