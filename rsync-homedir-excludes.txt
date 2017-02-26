@@ -58,6 +58,7 @@
 /.dbus
 /.cache
 /.Trash
+/.Trash-*
 .local/share/Trash
 
 # Cached info about audio CDs:
