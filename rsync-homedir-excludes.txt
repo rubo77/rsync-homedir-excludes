@@ -229,6 +229,12 @@
 .config/chromium/Default/Application Cache
 .config/chromium/Default/History Index *
 
+#GitHub:
+
+# Automatically created by GitHub Desktop
+/.config/git
+#/.gitconfig
+
 #Local repositories (added by errantlinguist on 2015-04-13):
 .gradle/caches
 /.m2/repository
@@ -248,3 +254,32 @@
 .icedteaplugin
 .icedtea
 .gnome2/epiphany/favicon_cache
+
+
+# # # # # # # # #
+# Mac OS addon  #
+# # # # # # # # #
+.DS_Store
+#.bash_history
+#.bash_profile
+.CFUserTextEncoding
+#/.config
+
+# Common Unix Printing System
+/.cups
+#/.ssh
+# run-time configuration information for Subversion
+/.subversion
+# Python virtual environments
+/.virtualenvs
+
+#/Desktop
+#/Documents
+#/Downloads
+#/Library
+#/Movies
+#/Music
+#/Pictures
+#/Public
+/Trash
+# # # # # # # # # # #
