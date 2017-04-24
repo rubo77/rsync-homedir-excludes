@@ -17,10 +17,10 @@
     # first append the “-n” parameter rsync will simulate the operation. you should use this before you start:
     rsync -naP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR
 		
-		#check for permission denied errors in your homedir:
-		rsync -naP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR|grep denied
+    #check for permission denied errors in your homedir:
+    rsync -naP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR|grep denied
 		
-		# if it is all fine, start your backup with
+    # if it is all fine, start your backup with
     rsync -aP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR
 
 You can edit the ignorelist file before execution as it serves you well:
