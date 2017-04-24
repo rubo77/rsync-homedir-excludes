@@ -260,7 +260,7 @@
 # Mac OS addon  #
 # # # # # # # # #
 .DS_Store
-#.bash_history
+.bash_history
 #.bash_profile
 .CFUserTextEncoding
 #/.config
@@ -270,8 +270,12 @@
 #/.ssh
 # run-time configuration information for Subversion
 /.subversion
+
 # Python virtual environments
 /.virtualenvs
+
+# Font Explorer local fonts
+#/FontExplorer X
 
 #/Desktop
 #/Documents
