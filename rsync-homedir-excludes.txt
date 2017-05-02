@@ -260,6 +260,7 @@
 # Mac OS addon  #
 # # # # # # # # #
 .DS_Store
+.localised
 .bash_history
 #.bash_profile
 .CFUserTextEncoding
