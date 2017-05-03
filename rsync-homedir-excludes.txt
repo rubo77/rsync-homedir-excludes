@@ -92,6 +92,18 @@
 .thumb
 Thumbs.db
 .DS_Store
+.localised
+.bash_history
+.CFUserTextEncoding
+
+# Common Unix Printing System
+/.cups
+
+# run-time configuration information for Subversion
+/.subversion
+
+# Python virtual environments
+/.virtualenvs
 
 # Session-specific
 .Xauthority
@@ -109,7 +121,7 @@ Thumbs.db
 # Contains a history of the Klipper clipboard (KDE)
 .kde/share/apps/klipper
 .kde4/share/apps/klipper
-# You will lose saved scrolling positions of PDFs
+# You will loose saved scrolling positions of PDFs
 .kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
 .kde4/share/apps/okular/docdata
