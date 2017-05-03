@@ -40,8 +40,11 @@
 #
 #/games
 #.local/share/Steam
+#.steam
+#Steam
 #.minecraft
 #.PlayOnLinux
+
 
 ################################################
 # These directories may definitely be excluded #
