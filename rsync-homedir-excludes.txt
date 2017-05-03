@@ -278,6 +278,7 @@
 # Font Explorer local fonts
 #/FontExplorer X
 
+#/Applications
 #/Desktop
 #/Documents
 #/Downloads
