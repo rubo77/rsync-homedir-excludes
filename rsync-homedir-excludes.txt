@@ -269,3 +269,6 @@ Thumbs.db
 
 # other temporary files 
 nohup.out
+
+# (Arch Linux) pacaur cache folder needs to build the packages, when the build process has been cancelled all old packages are in this folder
+.cache/pacaur
