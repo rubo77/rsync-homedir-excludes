@@ -59,7 +59,7 @@
 
 # Session-specific:
 /.dbus
-/.cache
+.cache
 /.Trash
 .Trash-1*
 .local/share/Trash
