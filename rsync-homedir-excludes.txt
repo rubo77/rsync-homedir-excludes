@@ -91,6 +91,7 @@
 .local/share/RecentDocuments
 .recently-used
 .recently-used.xbel
+recently-used.xbel
 .thumbnails
 .thumb
 Thumbs.db
