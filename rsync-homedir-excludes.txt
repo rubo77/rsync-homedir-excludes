@@ -269,3 +269,6 @@ Thumbs.db
 
 # other temporary files 
 nohup.out
+
+# LibreOffice cache files
+.config/libreoffice/4/cache
