@@ -272,3 +272,6 @@ nohup.out
 
 # LibreOffice cache files
 .config/libreoffice/4/cache
+
+# freshplayerplugin LSO
+.config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
