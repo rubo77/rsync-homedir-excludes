@@ -234,6 +234,10 @@ Thumbs.db
 .gnupg/*.lock
 .gnupg/gpg-agent-info-*
 
+#Google Earth:
+.googleearth/Temp
+.googleearth/Cache
+
 #Google Chrome:
 
 .config/google-chrome/Default/Local Storage
