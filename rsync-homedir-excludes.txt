@@ -73,6 +73,7 @@
 
 # Node Package Manager cache
 .npm
+node_modules
 
 #Flash-specific:
 
@@ -108,6 +109,8 @@ Thumbs.db
 
 # Python virtual environments
 /.virtualenvs
+# Python eggs
+.local/lib/python*
 
 # Session-specific
 .Xauthority
@@ -272,7 +275,7 @@ Thumbs.db
 .icedtea
 .gnome2/epiphany/favicon_cache
 
-# other temporary files 
+# other temporary files
 nohup.out
 
 # LibreOffice cache files
@@ -280,3 +283,17 @@ nohup.out
 
 # freshplayerplugin LSO
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
+
+# Snap caches
+.config/*/Cache
+
+# Rust artefacts
+.cargo
+.rustup
+
+# Erlang artefacts
+.kerl
+_build
+
+# Ruby gens
+.rvm
