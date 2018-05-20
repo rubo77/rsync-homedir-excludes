@@ -3,7 +3,7 @@
 # A list of files to exclude when backing up *nix home directories using rsync.
 #
 # Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
-# Version: 2015-08-30
+# Version: 2018-05-18
 #
 # #Usage:
 #    USER=<homedir username here>
@@ -280,3 +280,7 @@ nohup.out
 
 # freshplayerplugin LSO
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
+
+# ccache, remove cache but keep config
+.ccache/?
+.ccache/tmp
