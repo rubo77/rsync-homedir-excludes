@@ -3,7 +3,7 @@
 # A list of files to exclude when backing up *nix home directories using rsync.
 #
 # Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
-# Version: 2015-08-30
+# Version: 2018-05-18
 #
 # #Usage:
 #    USER=<homedir username here>
@@ -33,6 +33,7 @@
 #Applications/eclipse*
 #/Downloads
 #*Popcorntime*
+#/.aMule
 #/Scribus
 #/VirtualBox*
 #
@@ -255,7 +256,7 @@ Thumbs.db
 .config/chromium/Default/Application Cache
 .config/chromium/Default/History Index *
 
-#Local repositories (added by errantlinguist on 2015-04-13):
+#Local repositories:
 .gradle/caches
 /.m2/repository
 
@@ -287,6 +288,13 @@ nohup.out
 # Snap caches
 .config/*/Cache
 
+# Atom
+.config/Atom/*Cache
+.config/Atom/IndexedDB
+
+# VirtualBox
+.config/VirtualBox/VBoxSVC.log*
+
 # Rust artefacts
 .cargo
 .rustup
@@ -297,3 +305,7 @@ _build
 
 # Ruby gens
 .rvm
+
+# ccache, remove cache but keep config
+.ccache/?
+.ccache/tmp
