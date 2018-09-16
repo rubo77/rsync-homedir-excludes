@@ -265,7 +265,7 @@ Thumbs.db
 #Other apps:
 
 # Pidgin
-.pulse/icons
+.purple/icons
 # Cached applets
 .guayadeque/cache.db
 .java/deployment/cache
