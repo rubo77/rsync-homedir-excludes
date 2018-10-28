@@ -45,8 +45,11 @@
 #Steam
 #.minecraft
 #.PlayOnLinux
-
-
+#R
+#.rstudio-desktop
+#.qgis2
+#.audacity-data
+#.linuxmint
 ################################################
 # These directories may definitely be excluded #
 ################################################
