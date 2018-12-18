@@ -36,6 +36,7 @@
 #/.aMule
 #/Scribus
 #/VirtualBox*
+#/Nextcloud
 #_build
 ## Ruby gems
 #.rvm
@@ -142,6 +143,9 @@ Thumbs.db
 # Cached emoticons of others
 .kde/share/apps/kmess/customemoticons
 .kde4/share/apps/kmess/customemoticons
+
+#Tor Browser supposed to not be backupped ;)
+.local/share/torbrowser
 
 #Firefox-specific (see also Profile folder):
 
