@@ -36,6 +36,9 @@
 #/.aMule
 #/Scribus
 #/VirtualBox*
+#_build
+## Ruby gems
+#.rvm
 #
 ## Add Game Folders here:
 #
@@ -45,7 +48,6 @@
 #Steam
 #.minecraft
 #.PlayOnLinux
-
 
 ################################################
 # These directories may definitely be excluded #
@@ -109,6 +111,9 @@ Thumbs.db
 
 # Python virtual environments
 /.virtualenvs
+
+# Python eggs
+.local/lib/python*
 
 # Session-specific
 .Xauthority
@@ -273,7 +278,7 @@ Thumbs.db
 .icedtea
 .gnome2/epiphany/favicon_cache
 
-# other temporary files 
+# other temporary files
 nohup.out
 
 # LibreOffice cache files
@@ -282,9 +287,8 @@ nohup.out
 # freshplayerplugin LSO
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
 
-# ccache, remove cache but keep config
-.ccache/?
-.ccache/tmp
+# Snap caches
+.config/*/Cache
 
 # Atom
 .config/Atom/*Cache
@@ -292,3 +296,17 @@ nohup.out
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
+
+# Rust artefacts
+.cargo
+.rustup
+
+# Erlang artefacts
+.kerl
+
+# ccache, remove cache but keep config
+.ccache/?
+.ccache/tmp
+
+# ZeroNet
+ZeroBundle/ZeroNet/data
