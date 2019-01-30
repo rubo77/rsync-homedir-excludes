@@ -254,6 +254,7 @@ Thumbs.db
 .config/google-chrome/Default/Session Storage
 .config/google-chrome/Default/Application Cache
 .config/google-chrome/Default/History Index *
+.config/google-chrome/Default/Service Worker/CacheStorage
 
 #Chromium:
 
