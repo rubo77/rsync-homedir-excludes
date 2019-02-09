@@ -250,6 +250,7 @@ Thumbs.db
 
 #Google Chrome:
 
+.config/google-chrome/ShaderCache
 .config/google-chrome/Default/Local Storage
 .config/google-chrome/Default/Session Storage
 .config/google-chrome/Default/Application Cache
