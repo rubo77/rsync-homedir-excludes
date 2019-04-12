@@ -105,6 +105,7 @@ Thumbs.db
 .CFUserTextEncoding
 .zsh_history
 .zcompdump*
+.wget-hsts
 
 # Common Unix Printing System
 /.cups
