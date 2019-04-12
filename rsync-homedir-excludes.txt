@@ -103,6 +103,8 @@ Thumbs.db
 .localised
 .bash_history
 .CFUserTextEncoding
+.zsh_history
+.zcompdump*
 
 # Common Unix Printing System
 /.cups
