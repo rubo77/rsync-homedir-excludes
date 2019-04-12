@@ -110,6 +110,9 @@ Thumbs.db
 # run-time configuration information for Subversion
 /.subversion
 
+# Python history
+.python_history
+
 # Python virtual environments
 /.virtualenvs
 
