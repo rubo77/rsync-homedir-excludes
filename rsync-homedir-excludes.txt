@@ -270,6 +270,12 @@ Thumbs.db
 .config/chromium/Default/Application Cache
 .config/chromium/Default/History Index *
 
+#Brave
+.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/
+.config/BraveSoftware/Brave-Browser/Default/Local Storage/
+.config/BraveSoftware/Brave-Browser/Default/Session Storage/
+.config/BraveSoftware/Brave-Browser/Safe Browsing/
+
 #Local repositories:
 .gradle/caches
 /.m2/repository
