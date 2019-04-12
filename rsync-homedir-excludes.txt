@@ -273,8 +273,10 @@ Thumbs.db
 #Brave
 .config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/
 .config/BraveSoftware/Brave-Browser/Default/Local Storage/
+.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/
 .config/BraveSoftware/Brave-Browser/Default/Session Storage/
 .config/BraveSoftware/Brave-Browser/Safe Browsing/
+.config/BraveSoftware/Brave-Browser/ShaderCache/
 
 #Local repositories:
 .gradle/caches
@@ -322,6 +324,12 @@ nohup.out
 # VS Code
 .vscode-oss/extensions/*
 .vscode/extensions/*
+.config/Code - OSS/blob_storage/
+.config/Code - OSS/GPUCache/
+.config/Code - OSS/logs/
+.config/Code/blob_storage/
+.config/Code/GPUCache/
+.config/Code/logs/
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
