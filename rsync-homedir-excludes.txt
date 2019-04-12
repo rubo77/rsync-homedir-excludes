@@ -310,6 +310,10 @@ nohup.out
 .vim/bundle/*
 .viminfo
 
+# VS Code
+.vscode-oss/extensions/*
+.vscode/extensions/*
+
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
 
