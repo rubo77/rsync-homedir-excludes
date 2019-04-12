@@ -306,6 +306,10 @@ nohup.out
 .config/Atom/*Cache
 .config/Atom/IndexedDB
 
+# Vim
+.vim/bundle/*
+.viminfo
+
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
 
