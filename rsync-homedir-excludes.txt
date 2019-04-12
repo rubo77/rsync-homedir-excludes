@@ -305,6 +305,9 @@ nohup.out
 # freshplayerplugin LSO
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
 
+# Spotify
+.config/spotify/Users
+
 # Snap caches
 .config/*/Cache
 
