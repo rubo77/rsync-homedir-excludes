@@ -6,8 +6,9 @@ This project maintains a list of directories and files you probably do not need 
     # download to `rsync-homedir-local.txt`
     wget https://raw.githubusercontent.com/rubo77/rsync-homedir-excludes/master/rsync-homedir-excludes.txt -O rsync-homedir-local.txt
     # or clone and copy to `rsync-homedir-local.txt`
-    git clone https://github.com/rubo77/rsync-homedir-excludes.git
-    cp rsync-homedir-excludes/rsync-homedir-excludes.txt rsync-homedir-local.txt
+    git clone https://github.com/rubo77/rsync-homedir-excludes
+    cd rsync-homedir-excludes
+    cp rsync-homedir-excludes.txt rsync-homedir-local.txt
 
     # edit the file rsync-homedir-local.txt to your needs
     nano rsync-homedir-local.txt
@@ -18,7 +19,7 @@ This project maintains a list of directories and files you probably do not need 
     BACKUPDIR=/media/$USER/linuxbackup/home/$USER/
     BACKUPDIR=/media/$USER/USBSTICK/backup/home/$USER/
 
-    # first specify the “-n” parameter so rsync will simulate its operation:
+    # first specify the "-n" parameter so rsync will simulate its operation. You should use this before you start:
     rsync -naP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR
 
     # check for permission denied errors in your homedir:
@@ -29,5 +30,5 @@ This project maintains a list of directories and files you probably do not need 
 
 You can edit the exclude file before execution:
 - All lines starting with a `#` are ignored by rsync, i.e. those directories will be backed up.
-- At the start there is a section with directories that are probably not worth backing up. Uncomment those lines to exclude them as well.
 - The syntax doesn't support comments at the end of a line yet.
+- At the start there is a section with directories that are probably not worth backing up. Uncomment those lines to exclude them as well.
