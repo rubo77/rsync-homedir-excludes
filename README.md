@@ -1,13 +1,13 @@
 # rsync-homedir-excludes
+This project maintains a list of directories and files you probably do not need to back up, which you can pass to the `rsync` command's `--exclude-from` option.
 
 ## Usage:
 
     # download to `rsync-homedir-local.txt`
     wget https://raw.githubusercontent.com/rubo77/rsync-homedir-excludes/master/rsync-homedir-excludes.txt -O rsync-homedir-local.txt
     # or clone and copy to `rsync-homedir-local.txt`
-    git clone https://raw.githubusercontent.com/rubo77/rsync-homedir-excludes
-    cd rsync-homedir-excludes
-    cp rsync-homedir-excludes.txt rsync-homedir-local.txt
+    git clone https://github.com/rubo77/rsync-homedir-excludes.git
+    cp rsync-homedir-excludes/rsync-homedir-excludes.txt rsync-homedir-local.txt
 
     # edit the file rsync-homedir-local.txt to your needs
     nano rsync-homedir-local.txt
@@ -18,19 +18,16 @@
     BACKUPDIR=/media/$USER/linuxbackup/home/$USER/
     BACKUPDIR=/media/$USER/USBSTICK/backup/home/$USER/
 
-    # first append the “-n” parameter rsync will simulate the operation. you should use this before you start:
+    # first specify the “-n” parameter so rsync will simulate its operation:
     rsync -naP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR
-		
-    #check for permission denied errors in your homedir:
+
+    # check for permission denied errors in your homedir:
     rsync -naP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR|grep denied
-		
-    # if it is all fine, start your backup with
+
+    # if it is all fine, actually perform your backup:
     rsync -aP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR
 
-You can edit the ignorelist file before execution as it serves you well:
-
-- At the start, there is a section with directories, probably not worth a backup. Uncomment those lines to exclude them as well.
-
-- All lines starting with a `#` are being ignored.
-
+You can edit the exclude file before execution:
+- All lines starting with a `#` are ignored by rsync, i.e. those directories will be backed up.
+- At the start there is a section with directories that are probably not worth backing up. Uncomment those lines to exclude them as well.
 - The syntax doesn't support comments at the end of a line yet.
