@@ -49,6 +49,14 @@
 #Steam
 #.minecraft
 #.PlayOnLinux
+#
+## Spotify
+#.config/spotify/Users
+#
+## those folders contain only temporary Videos I want to watch
+#/Videos
+#/Movies
+
 
 ################################################
 # These directories may definitely be excluded #
@@ -309,9 +317,6 @@ nohup.out
 
 # freshplayerplugin LSO
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
-
-# Spotify
-#.config/spotify/Users
 
 # Snap caches
 .config/*/Cache
