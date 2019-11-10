@@ -319,6 +319,7 @@ nohup.out
 # Atom
 .config/Atom/*Cache
 .config/Atom/IndexedDB
+.atom/compile-cache/
 
 # Vim
 .vim/bundle/*
