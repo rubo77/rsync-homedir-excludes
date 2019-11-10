@@ -78,6 +78,9 @@
 # Node Package Manager cache
 .npm
 
+# Node Version Manager
+.nvm
+
 #Flash-specific:
 
 # Cache for flash, maybe others?
