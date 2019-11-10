@@ -280,6 +280,12 @@ Thumbs.db
 .config/chromium/Default/Session Storage
 .config/chromium/Default/Application Cache
 .config/chromium/Default/History Index *
+/snap/chromium/common/.cache
+/snap/chromium/*/.config/chromium/Default/Service Worker/CacheStorage
+/snap/chromium/*/.local/share/
+
+#Riot
+/snap/riot-web/
 
 #Brave
 .config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/
