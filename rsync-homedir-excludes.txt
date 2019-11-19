@@ -61,7 +61,9 @@
 #.python_history
 #.bash_history
 #.zsh_history
-
+#
+## Python eggs
+#.local/lib/python*
 
 ################################################
 # These directories may definitely be excluded #
@@ -129,9 +131,6 @@ Thumbs.db
 
 # Python virtual environments
 /.virtualenvs
-
-# Python eggs
-.local/lib/python*
 
 # Session-specific
 .Xauthority
