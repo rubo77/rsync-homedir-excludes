@@ -56,6 +56,11 @@
 ## those folders contain only temporary Videos I want to watch
 #/Videos
 #/Movies
+#
+## some history files
+#.python_history
+#.bash_history
+#.zsh_history
 
 
 ################################################
@@ -112,9 +117,7 @@ recently-used.xbel
 Thumbs.db
 .DS_Store
 .localised
-.bash_history
 .CFUserTextEncoding
-.zsh_history
 .zcompdump*
 .wget-hsts
 
@@ -123,9 +126,6 @@ Thumbs.db
 
 # run-time configuration information for Subversion
 /.subversion
-
-# Python history
-.python_history
 
 # Python virtual environments
 /.virtualenvs
