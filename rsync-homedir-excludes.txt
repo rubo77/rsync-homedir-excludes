@@ -64,6 +64,9 @@
 #
 ## Python eggs
 #.local/lib/python*
+#
+## Unlocked Plasma Vaults
+#/Vaults
 
 ################################################
 # These directories may definitely be excluded #
