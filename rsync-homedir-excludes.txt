@@ -2,8 +2,8 @@
 #
 # A list of files to exclude when backing up *nix home directories using rsync.
 #
-# Author: Ruben Barkow <https://github.com/rubo77/rsync-homedir-excludes>
-# Version: 2018-05-18
+# Author: Ruben Barkow-Kuder <https://github.com/rubo77/rsync-homedir-excludes>
+# Version: 2019-11-30
 #
 # #Usage:
 #    USER=<homedir username here>
@@ -38,6 +38,7 @@
 #/VirtualBox*
 #/Nextcloud
 #_build
+#
 ## Ruby gems
 #.rvm
 #
@@ -46,7 +47,7 @@
 #/games
 #.local/share/Steam
 #.steam
-#Steam
+#/Steam
 #.minecraft
 #.PlayOnLinux
 #
