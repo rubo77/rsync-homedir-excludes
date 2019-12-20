@@ -253,8 +253,8 @@ Thumbs.db
 .komodoedit/*/mutex.lock
 .komodoedit/*/*.xmlc
 .komodoedit/*/startup-env.tmp
-.komoeoedit/*/commandments.fifo
-.komoeoedit/*/history.sqlite
+.komodoedit/*/commandments.fifo
+.komodoedit/*/history.sqlite
 
 #GnuPG:
 
