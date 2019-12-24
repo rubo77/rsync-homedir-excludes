@@ -24,6 +24,7 @@
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+#.local/share/containers
 #.local/libvirt
 #.vagrant
 #.vagrant.d
