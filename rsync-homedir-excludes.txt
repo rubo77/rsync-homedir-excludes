@@ -18,6 +18,7 @@
 #.android
 #.AndroidStudio*/
 #Android/Sdk
+#.docker/machine
 #.gradle
 #.gvm
 #.grails/
