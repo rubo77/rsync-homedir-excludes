@@ -362,6 +362,3 @@ nohup.out
 # ccache, remove cache but keep config
 .ccache/?
 .ccache/tmp
-
-# ZeroNet
-ZeroBundle/ZeroNet/data
