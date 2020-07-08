@@ -25,6 +25,7 @@
 #.kde/share/apps/nepomuk
 #.local/share/notbit
 #.local/libvirt
+#.local/share/libvirt
 #.vagrant
 #.vagrant.d
 #.wine
