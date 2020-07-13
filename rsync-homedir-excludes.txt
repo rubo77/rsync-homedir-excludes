@@ -153,11 +153,14 @@ Thumbs.db
 # Contains a history of the Klipper clipboard (KDE)
 .kde/share/apps/klipper
 .kde4/share/apps/klipper
+.local/share/klipper
 # You will loose saved scrolling positions of PDFs
 .kde/share/apps/okular/docdata
 .kde/share/apps/gwenview/recentfolders
 .kde4/share/apps/okular/docdata
 .kde4/share/apps/gwenview/recentfolders
+.local/share/okular/docdata
+.local/share/org.kde.gwenview/recentfolders
 # Cached other users' profile pics
 .kde/share/apps/kmess/displaypics
 .kde4/share/apps/kmess/displaypics
