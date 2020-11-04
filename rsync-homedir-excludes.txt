@@ -65,6 +65,7 @@
 #.python_history
 #.bash_history
 #.zsh_history
+#.mysql_history
 #
 ## Python eggs
 #.local/lib/python*
