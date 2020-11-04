@@ -50,7 +50,9 @@
 #.steam
 #/Steam
 #.minecraft
+#.technic
 #.PlayOnLinux
+#.local/share/lutris/runners/wine/
 #
 ## Spotify
 #.config/spotify/Users
