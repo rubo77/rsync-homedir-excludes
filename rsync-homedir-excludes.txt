@@ -73,6 +73,9 @@
 ## Python virtual environments
 #PycharmProjects/**/venv
 #
+## Maven local repository
+#/.m2
+#
 ## Unlocked Plasma Vaults
 #/Vaults
 
