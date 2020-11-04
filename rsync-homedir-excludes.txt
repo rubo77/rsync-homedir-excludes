@@ -377,6 +377,9 @@ nohup.out
 # Erlang artefacts
 .kerl
 
+# golang Cache
+go/pkg/mod/cache
+
 # ccache, remove cache but keep config
 .ccache/?
 .ccache/tmp
