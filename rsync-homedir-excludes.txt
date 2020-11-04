@@ -380,3 +380,6 @@ nohup.out
 # ccache, remove cache but keep config
 .ccache/?
 .ccache/tmp
+
+# Nvidia OpenGL Shader Cache
+.nv/GLCache
