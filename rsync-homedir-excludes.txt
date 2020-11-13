@@ -386,3 +386,9 @@ go/pkg/mod/cache
 
 # Nvidia OpenGL Shader Cache
 .nv/GLCache
+
+# Citrix ICA Client
+.ICAClient/logs
+.ICAClient/.tmp
+.ICAClient/cache/zlcache
+
