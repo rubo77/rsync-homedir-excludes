@@ -177,6 +177,11 @@ Thumbs.db
 .kde/share/apps/kmess/customemoticons
 .kde4/share/apps/kmess/customemoticons
 
+#Gnome specific:
+
+# tracker data files
+.local/share/tracker
+
 #Tor Browser supposed to not be backupped ;)
 .local/share/torbrowser
 
