@@ -369,6 +369,7 @@ nohup.out
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
+.config/VirtualBox/VBoxGuestAdditions_*
 
 # Rust artefacts
 .cargo
