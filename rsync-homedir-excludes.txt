@@ -289,30 +289,30 @@ Thumbs.db
 #Google Chrome:
 
 .config/google-chrome/ShaderCache
-.config/google-chrome/Default/Local Storage
-.config/google-chrome/Default/Session Storage
-.config/google-chrome/Default/Application Cache
-.config/google-chrome/Default/History Index *
-.config/google-chrome/Default/Service Worker/CacheStorage
+.config/google-chrome/*/Local Storage
+.config/google-chrome/*/Session Storage
+.config/google-chrome/*/Application Cache
+.config/google-chrome/*/History Index *
+.config/google-chrome/*/Service Worker/CacheStorage
 
 #Chromium:
 
-.config/chromium/Default/Local Storage
-.config/chromium/Default/Session Storage
-.config/chromium/Default/Application Cache
-.config/chromium/Default/History Index *
+.config/chromium/*/Local Storage
+.config/chromium/*/Session Storage
+.config/chromium/*/Application Cache
+.config/chromium/*/History Index *
 /snap/chromium/common/.cache
-/snap/chromium/*/.config/chromium/Default/Service Worker/CacheStorage
+/snap/chromium/*/.config/chromium/*/Service Worker/CacheStorage
 /snap/chromium/*/.local/share/
 
 #Riot
 /snap/riot-web/
 
 #Brave
-.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/
-.config/BraveSoftware/Brave-Browser/Default/Local Storage/
-.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/
-.config/BraveSoftware/Brave-Browser/Default/Session Storage/
+.config/BraveSoftware/Brave-Browser/*/Feature Engagement Tracker/
+.config/BraveSoftware/Brave-Browser/*/Local Storage/
+.config/BraveSoftware/Brave-Browser/*/Service Worker/CacheStorage/
+.config/BraveSoftware/Brave-Browser/*/Session Storage/
 .config/BraveSoftware/Brave-Browser/Safe Browsing/
 .config/BraveSoftware/Brave-Browser/ShaderCache/
 
