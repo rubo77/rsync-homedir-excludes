@@ -42,6 +42,8 @@
 #
 ## Ruby gems
 #.rvm
+#.rbenv
+#.gem
 #
 ## Add Game Folders here:
 #
@@ -106,6 +108,8 @@
 
 # Node Package Manager cache
 .npm
+
+.electron-gyp/
 
 # Node Version Manager
 .nvm
@@ -294,6 +298,15 @@ Thumbs.db
 .config/google-chrome/Default/Application Cache
 .config/google-chrome/Default/History Index *
 .config/google-chrome/Default/Service Worker/CacheStorage
+.config/google-chrome/Profile 1/Service Worker/CacheStorage
+.config/google-chrome/Profile 2/Service Worker/CacheStorage
+.config/google-chrome/Profile 3/Service Worker/CacheStorage
+.config/google-chrome/Profile 4/Service Worker/CacheStorage
+.config/google-chrome/Profile 5/Service Worker/CacheStorage
+.config/google-chrome/Profile 6/Service Worker/CacheStorage
+.config/google-chrome/Profile 7/Service Worker/CacheStorage
+.config/google-chrome/Profile 8/Service Worker/CacheStorage
+.config/google-chrome/Profile 9/Service Worker/CacheStorage
 
 #Chromium:
 
@@ -366,6 +379,8 @@ nohup.out
 .config/Code/blob_storage/
 .config/Code/GPUCache/
 .config/Code/logs/
+.config/Code/CachedData/
+.config/Code/Backups/
 
 # MS Teams
 .config/Microsoft/Microsoft Teams/Application Cache
@@ -375,6 +390,9 @@ nohup.out
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
 .config/VirtualBox/VBoxGuestAdditions_*
+
+# Gnome boxes
+# .local/share/gnome-boxes/images
 
 # Rust artefacts
 .cargo
@@ -398,3 +416,9 @@ go/pkg/mod/cache
 .ICAClient/.tmp
 .ICAClient/cache/zlcache
 
+# Slack
+
+.config/Slack/Service Worker/CacheStorage
+
+# Perl
+#.cpan/build
