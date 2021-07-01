@@ -398,3 +398,5 @@ go/pkg/mod/cache
 .ICAClient/.tmp
 .ICAClient/cache/zlcache
 
+# Geany IDE - socket file
+.config/geany/geany_socket_*
