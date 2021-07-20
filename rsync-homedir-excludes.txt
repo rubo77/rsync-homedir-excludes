@@ -18,12 +18,14 @@
 #.android
 #.AndroidStudio*/
 #Android/Sdk
+#.docker/machine
 #.gradle
 #.gvm
 #.grails/
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+#.local/share/containers
 #.local/libvirt
 #.local/share/libvirt
 #.vagrant
