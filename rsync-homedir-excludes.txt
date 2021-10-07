@@ -370,6 +370,7 @@ nohup.out
 # MS Teams
 .config/Microsoft/Microsoft Teams/Application Cache
 .config/Microsoft/Microsoft Teams/Cache
+.config/Microsoft/Microsoft Teams/Code Cache
 .config/Microsoft/Microsoft Teams/GPUCache
 
 # VirtualBox
