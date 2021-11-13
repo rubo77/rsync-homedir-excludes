@@ -401,3 +401,7 @@ go/pkg/mod/cache
 
 # Geany IDE - socket file
 .config/geany/geany_socket_*
+
+# LBRY
+.config/lbry
+.local/share/lbry/lbrynet
