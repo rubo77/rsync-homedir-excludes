@@ -121,6 +121,7 @@
 
 # Contains errors from the current graphical session
 .xsession-errors
+.xsession-errors.old
 .wayland-errors
 
 # Recently used files
