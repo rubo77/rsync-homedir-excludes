@@ -28,7 +28,7 @@ This project maintains a list of directories and files you probably do not need 
     # if it is all fine, actually perform your backup:
     rsync -aP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR
 
-    # makes your backup incremental:
+    # makes your backup incremental (local transfer only, or with --whole-file option):
     SNAPSHOT_DIR="$BACKUPDIR.$(date --iso-8601=seconds -u)"
     cp -al $BACKUPDIR $SNAPSHOT_DIR
 
