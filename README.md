@@ -28,11 +28,17 @@ This project maintains a list of directories and files you probably do not need 
     # if it is all fine, actually perform your backup:
     rsync -aP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR
 
-    # makes your backup incremental (local transfer only, or with --whole-file option):
-    SNAPSHOT_DIR="$BACKUPDIR.$(date --iso-8601=seconds -u)"
-    cp -al $BACKUPDIR $SNAPSHOT_DIR
-
 You can edit the exclude file before execution:
 - All lines starting with a `#` are ignored by rsync, i.e. those directories will be backed up.
 - The syntax doesn't support comments at the end of a line yet.
 - At the start there is a section with directories that are probably not worth backing up. Uncomment those lines to exclude them as well.
+
+## Making incremental backups:
+When running locally or with the `--whole-file` option, rsync doesn't modify files but replaces them entirely.
+This allows us to snapshot the state of the backup directory at a certain point in time:
+
+    BACKUPDIR=/media/workspace/home/$USER/
+    SNAPSHOT_DIR="$BACKUPDIR.$(date --iso-8601=seconds -u)"
+    cp -al $BACKUPDIR $SNAPSHOT_DIR
+
+Next time you run your backup, the snapshot directory will be intact despite the changes rsync makes to the files in the backup directory.
