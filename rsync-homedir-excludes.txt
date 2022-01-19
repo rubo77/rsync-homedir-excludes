@@ -390,6 +390,10 @@ nohup.out
 .config/Microsoft/Microsoft Teams/Cache
 .config/Microsoft/Microsoft Teams/Code Cache
 .config/Microsoft/Microsoft Teams/GPUCache
+.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Application Cache
+.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Cache
+.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Code Cache
+.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/GPUCache
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
