@@ -305,6 +305,7 @@ Thumbs.db
 
 .config/chromium/*/Local Storage
 .config/chromium/*/Session Storage
+.config/chromium/*/Service Worker/CacheStorage
 .config/chromium/*/Application Cache
 .config/chromium/*/History Index *
 /snap/chromium/common/.cache
