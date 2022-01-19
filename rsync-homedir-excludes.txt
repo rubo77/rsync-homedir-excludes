@@ -94,6 +94,8 @@
 # Session-specific:
 /.dbus
 .cache
+.var/app/*/cache
+.var/app/*/.cache
 /.Trash
 .Trash-1*
 .local/share/Trash
