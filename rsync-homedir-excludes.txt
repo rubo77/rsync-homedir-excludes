@@ -437,3 +437,9 @@ go/pkg/mod/cache
 # LBRY
 .config/lbry
 .local/share/lbry/lbrynet
+
+# Discord
+.var/app/com.discordapp.Discord/config/discord/Application Cache
+.var/app/com.discordapp.Discord/config/discord/Cache
+.var/app/com.discordapp.Discord/config/discord/Code Cache
+.var/app/com.discordapp.Discord/config/discord/GPUCache
