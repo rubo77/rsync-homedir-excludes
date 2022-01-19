@@ -395,6 +395,16 @@ nohup.out
 .var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Code Cache
 .var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/GPUCache
 
+# Teams for linux
+.config/teams-for-linux/Application Cache
+.config/teams-for-linux/Cache
+.config/teams-for-linux/Code Cache
+.config/teams-for-linux/GPUCache
+.config/teams-for-linux/Parititions/teams-4-linux/Application Cache
+.config/teams-for-linux/Parititions/teams-4-linux/Cache
+.config/teams-for-linux/Parititions/teams-4-linux/Code Cache
+.config/teams-for-linux/Parititions/teams-4-linux/GPUCache
+
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
 .config/VirtualBox/VBoxGuestAdditions_*
