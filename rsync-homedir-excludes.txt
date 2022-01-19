@@ -48,6 +48,8 @@
 #
 #/games
 #.local/share/Steam
+#.var/app/com.valvesoftware.Steam/.local/share/Steam
+#.var/app/com.valvesoftware.Steam/.cache
 #.steam
 #/Steam
 #.minecraft
