@@ -380,6 +380,11 @@ nohup.out
 .config/VSCodium/GPUCache/
 .config/VSCodium/logs/
 
+# Element
+.config/Element/blob_storage/
+.config/Element/GPUCache/
+.config/Element/logs/
+
 # MS Teams
 .config/Microsoft/Microsoft Teams/Application Cache
 .config/Microsoft/Microsoft Teams/Cache
