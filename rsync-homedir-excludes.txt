@@ -434,6 +434,12 @@ go/pkg/mod/cache
 # Geany IDE - socket file
 .config/geany/geany_socket_*
 
+# balena-etcher
+.config/balena-etcher/Application Cache
+.config/balena-etcher/Cache
+.config/balena-etcher/Code Cache
+.config/balena-etcher/GPUCache
+
 # LBRY
 .config/lbry
 .local/share/lbry/lbrynet
