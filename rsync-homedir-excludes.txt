@@ -37,6 +37,7 @@
 #/.aMule
 #/Scribus
 #/VirtualBox*
+#.local/share/gnome-boxes/images
 #/Nextcloud
 #_build
 #
