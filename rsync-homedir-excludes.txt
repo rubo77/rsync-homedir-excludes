@@ -49,6 +49,7 @@
 #.local/share/Steam
 #.steam
 #/Steam
+#.var/app/com.valvesoftware.Steam/data/Steam/
 #.minecraft
 #.technic
 #.PlayOnLinux
