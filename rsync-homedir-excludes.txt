@@ -366,44 +366,11 @@ nohup.out
 # VS Code
 .vscode-oss/extensions/*
 .vscode/extensions/*
-.config/Code - OSS/blob_storage/
-.config/Code - OSS/GPUCache/
 .config/Code - OSS/logs/
-.config/Code/blob_storage/
-.config/Code/GPUCache/
 .config/Code/logs/
 
 # VS Codium
 .config/VSCodium/CachedExtensionVSIXs
-.config/VSCodium/blob_storage/
-.config/VSCodium/CachedData/
-.config/VSCodium/GPUCache/
-.config/VSCodium/logs/
-
-# Element
-.config/Element/blob_storage/
-.config/Element/GPUCache/
-.config/Element/logs/
-
-# MS Teams
-.config/Microsoft/Microsoft Teams/Application Cache
-.config/Microsoft/Microsoft Teams/Cache
-.config/Microsoft/Microsoft Teams/Code Cache
-.config/Microsoft/Microsoft Teams/GPUCache
-.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Application Cache
-.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Cache
-.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/Code Cache
-.var/app/com.microsoft.Teams/config/Microsoft/Microsoft Teams/GPUCache
-
-# Teams for linux
-.config/teams-for-linux/Application Cache
-.config/teams-for-linux/Cache
-.config/teams-for-linux/Code Cache
-.config/teams-for-linux/GPUCache
-.config/teams-for-linux/Parititions/teams-4-linux/Application Cache
-.config/teams-for-linux/Parititions/teams-4-linux/Cache
-.config/teams-for-linux/Parititions/teams-4-linux/Code Cache
-.config/teams-for-linux/Parititions/teams-4-linux/GPUCache
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
@@ -434,18 +401,21 @@ go/pkg/mod/cache
 # Geany IDE - socket file
 .config/geany/geany_socket_*
 
-# balena-etcher
-.config/balena-etcher/Application Cache
-.config/balena-etcher/Cache
-.config/balena-etcher/Code Cache
-.config/balena-etcher/GPUCache
-
 # LBRY
 .config/lbry
 .local/share/lbry/lbrynet
 
-# Discord
-.var/app/com.discordapp.Discord/config/discord/Application Cache
-.var/app/com.discordapp.Discord/config/discord/Cache
-.var/app/com.discordapp.Discord/config/discord/Code Cache
-.var/app/com.discordapp.Discord/config/discord/GPUCache
+# Electron Apps
+.config/*/blob_storage
+.config/*/Application Cache
+.config/*/Cache
+.config/*/CachedData
+.config/*/Code Cache
+.config/*/GPUCache
+.var/app/**/blob_storage
+.var/app/**/Application Cache
+.var/app/**/Cache
+.var/app/**/CachedData
+.var/app/**/Code Cache
+.var/app/**/GPUCache
+
