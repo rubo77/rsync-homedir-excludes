@@ -374,6 +374,7 @@ nohup.out
 .config/Code/logs/
 
 # VS Codium
+.config/VSCodium/CachedExtensionVSIXs
 .config/VSCodium/blob_storage/
 .config/VSCodium/CachedData/
 .config/VSCodium/GPUCache/
