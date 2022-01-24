@@ -81,6 +81,9 @@
 #
 ## Unlocked Plasma Vaults
 #/Vaults
+## Docker
+#.docker/machine
+#.local/share/containers
 
 ################################################
 # These directories may definitely be excluded #
