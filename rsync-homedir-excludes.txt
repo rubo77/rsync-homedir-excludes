@@ -18,14 +18,12 @@
 #.android
 #.AndroidStudio*/
 #Android/Sdk
-#.docker/machine
 #.gradle
 #.gvm
 #.grails/
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
-#.local/share/containers
 #.local/libvirt
 #.vagrant
 #.vagrant.d
@@ -70,6 +68,9 @@
 #
 ## Unlocked Plasma Vaults
 #/Vaults
+## Docker
+#.docker/machine
+#.local/share/containers
 
 ################################################
 # These directories may definitely be excluded #
