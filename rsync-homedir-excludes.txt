@@ -372,6 +372,7 @@ nohup.out
 .vscode/extensions/*
 .config/Code - OSS/logs/
 .config/Code/logs/
+.config/Code/CachedData/*
 
 # VS Codium
 .config/VSCodium/CachedExtensionVSIXs
