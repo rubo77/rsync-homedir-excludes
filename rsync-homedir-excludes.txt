@@ -417,10 +417,14 @@ go/pkg/mod/cache
 .config/**/CachedData
 .config/**/Code Cache
 .config/**/GPUCache
+.config/**/Service Worker/CacheStorage
 .var/app/**/blob_storage
 .var/app/**/Application Cache
 .var/app/**/Cache
 .var/app/**/CachedData
 .var/app/**/Code Cache
 .var/app/**/GPUCache
+.var/app/**/Service Worker/CacheStorage
 
+# SC-Controller - socket file
+.config/scc/daemon.socket
