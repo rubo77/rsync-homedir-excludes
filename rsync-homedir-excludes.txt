@@ -163,6 +163,9 @@ Thumbs.db
 .pulse-cookie
 .esd_auth
 
+# Lock / Pid files
+.VeraCrypt-lock-*
+
 #KDE specific:
 
 # Recent documents on KDE
