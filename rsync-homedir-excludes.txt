@@ -202,7 +202,7 @@ Thumbs.db
 .mozilla/firefox/*/Cache
 # in case Fx crashes dumps will be stored in this
 .mozilla/firefox/*/minidumps
-# session-specific 
+# session-specific
 .mozilla/firefox/*/.parentlock
 # phishing database, recreated
 .mozilla/firefox/*/urlclassifier3.sqlite
@@ -227,7 +227,7 @@ Thumbs.db
 .mozilla/seamonkey/*/Cache
 # in case Fx crashes dumps will be stored in this
 .mozilla/seamonkey/*/minidumps
-# session-specific 
+# session-specific
 .mozilla/seamonkey/*/.parentlock
 # blacklisted extensions
 .mozilla/seamonkey/*/blocklist.xml
