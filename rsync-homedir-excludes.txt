@@ -1,9 +1,5 @@
-# rsync-homedir-excludes
-#
 # A list of files to exclude when backing up *nix home directories using rsync.
-#
 # Author: Ruben Barkow-Kuder <https://github.com/rubo77/rsync-homedir-excludes>
-# Version: 2019-11-30
 #
 # #Usage:
 #    USER=<homedir username here>
