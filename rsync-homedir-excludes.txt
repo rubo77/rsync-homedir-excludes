@@ -7,7 +7,7 @@
 #
 # #Usage:
 #    USER=<homedir username here>
-#    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
+#    rsync -aP --delete-during --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
 
 ###############################################
@@ -79,10 +79,24 @@
 ## Maven local repository
 #/.m2
 #
+## Kotlin/Native dependencies cache
+#.konan
+#
+## Downloaded JDKs (Android Studio / JetBrains)
+#.jdks
+#
+## NuGet package cache
+#.nuget/packages
+#.local/share/NuGet
+#
+## Playwright browser binaries (re-downloadable)
+#.playwright-browsers
+#
 ## Unlocked Plasma Vaults
 #/Vaults
 ## Docker
 #.docker/machine
+## Podman container storage (images and volumes, rebuildable)
 #.local/share/containers
 
 ################################################
@@ -114,6 +128,12 @@
 
 # Node Package Manager cache
 .npm
+
+# Node modules - installed via npm/yarn, can be huge (100k+ files)
+node_modules
+
+# Python bytecode caches
+__pycache__
 
 # Node Version Manager
 .nvm
@@ -359,6 +379,7 @@ nohup.out
 .config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
 
 # Snap caches
+/snap/*/common/.cache
 .config/*/Cache
 
 # Atom
@@ -379,6 +400,26 @@ nohup.out
 
 # VS Codium
 .config/VSCodium/CachedExtensionVSIXs
+
+# Cursor (VS Code fork)
+.cursor/extensions/*
+.config/Cursor/logs/
+
+# Codeium / Windsurf assistant data - databases and embedded
+# browser state, rebuilt on use (keep .codeium/*/memories)
+.codeium/*/database
+.codeium/*/ws-browser
+.codeium/*/ws-browser-profile
+.codeium/*/cascade
+
+# Devin / Windsurf (Cognition) - extension binaries, old CLI
+# versions and logs, all re-downloadable
+.devin/extensions/*
+.windsurf/extensions/*
+.local/share/devin/cli/_versions
+.local/share/devin/cli/logs
+.config/Devin/logs/
+.config/Windsurf/logs/
 
 # VirtualBox
 .config/VirtualBox/VBoxSVC.log*
