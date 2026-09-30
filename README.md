@@ -33,6 +33,12 @@ You can edit the exclude file before execution:
 - The syntax doesn't support comments at the end of a line yet.
 - At the start there is a section with directories that are probably not worth backing up. Uncomment those lines to exclude them as well.
 
+## Deleting extraneous files
+
+In case you want to have a clean copy of your home-dir it is advisable to delete extraneous files with the extra rsync option `--delete-during`
+
+    rsync -aP --delete-during --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR/
+
 ## Making incremental backups:
 When running locally or with the `--whole-file` option (for backups over SSH), rsync doesn't modify files but replaces them entirely. This allows us to create a snapshot directory (with hardlinks) with the state of the backup directory at a certain point in time.  
 Run this after finishing the `rsync` backup and it'll create a new snapshot:
