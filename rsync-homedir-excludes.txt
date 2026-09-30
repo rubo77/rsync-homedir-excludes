@@ -94,6 +94,10 @@
 #
 ## Unlocked Plasma Vaults
 #/Vaults
+## Flatpak per-app data (~/.var/app) - the sandboxes can hold real
+## user data (savegames, documents, app config); pure caches inside
+## are already excluded, exclude this only if you don't need them
+#.var/app
 ## Docker
 #.docker/machine
 ## Podman container storage (images and volumes, rebuildable)
