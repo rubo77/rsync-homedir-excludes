@@ -71,6 +71,9 @@
 #
 ## Python virtual environments
 #PycharmProjects/**/venv
+## pip packages inside any virtualenv - reinstallable, but
+## restoring without them requires a requirements file
+#lib/python*/site-packages
 #
 ## Maven local repository
 #/.m2
