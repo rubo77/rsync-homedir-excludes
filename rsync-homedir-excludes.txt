@@ -97,6 +97,13 @@
 ## user data (savegames, documents, app config); pure caches inside
 ## are already excluded, exclude this only if you don't need them
 #.var/app
+## Thunderbird: regenerable profile data - IMAP copies, indexes
+## and caches. Do NOT exclude Mail/Local Folders or POP accounts -
+## that mail exists nowhere else!
+#ImapMail
+#*.msf
+#global-messages-db.sqlite*
+#cache2
 ## Docker
 #.docker/machine
 ## Podman container storage (images and volumes, rebuildable)

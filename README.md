@@ -28,6 +28,24 @@ This project maintains a list of directories and files you probably do not need 
     # if it is all fine, actually perform your backup:
     rsync -aP --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR/
 
+## Checking free space on the target
+
+rsync has no built-in free-space check, so estimate beforehand:
+
+    # `du` does not understand rsync pattern syntax (leading and
+    # trailing slashes) - convert the file first with the script
+    # shipped in this repo:
+    bash rsync-to-du-excludes.sh rsync-homedir-local.txt du-excludes.txt
+
+    # fast run, only show the big items (hide everything below 1G):
+    du -shxc --exclude-from=du-excludes.txt /home/$USER/* | grep -E '[0-9,.]+[GT]\s'
+
+    # free space on the target filesystem:
+    df -h $BACKUPDIR
+
+    # exact size (scans everything, just like the real backup):
+    rsync -ani --stats --exclude-from=rsync-homedir-local.txt /home/$USER/ $BACKUPDIR/
+
 You can edit the exclude file before execution:
 - All lines starting with a `#` are ignored by rsync, i.e. those directories will be backed up.
 - The syntax doesn't support comments at the end of a line yet.
